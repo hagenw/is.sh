@@ -1,6 +1,7 @@
 language: bash
+bash:
+    - 4.3
 os:
     - linux
-    - osx
 script:
     - ./tests/tests.sh
