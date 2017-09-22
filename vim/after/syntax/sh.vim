@@ -1,4 +1,4 @@
-" Add 'is' to the operators (https://github.com/qzb/is.sh)
+" Add 'is' to the operators (https://github.com/hagenw/is.sh)
 syn match   shOperator  "\<is\>"                                    nextgroup=isArticle,isArg skipwhite
 syn match   shOperator  "\<is not\>"                                nextgroup=isArticle,isArg skipwhite
 syn keyword isArticle   a an the                                    nextgroup=isArg skipwhite contained

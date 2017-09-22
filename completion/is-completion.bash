@@ -1,5 +1,5 @@
 #
-# Bash completion definition for is.
+# Bash completion definition for is (https://github.com/hagenw/is.sh)
 #
 _is () {
     local cur prev not articles opts

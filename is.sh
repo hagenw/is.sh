@@ -1,8 +1,9 @@
 # Copyright (c) 2016 Józef Sokołowski
+#               2017 Hagen Wierstorf
 # Distributed under the MIT License
 #
 # For most current version checkout repository:
-# https://github.com/qzb/is.sh
+# https://github.com/hagenw/is.sh
 #
 
 is() {

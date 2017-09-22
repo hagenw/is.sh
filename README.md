@@ -25,7 +25,7 @@ In order to use is.sh you can download it and source it from your script or
 
 
 ```sh
-$ wget raw.githubusercontent.com/qzb/is.sh/latest/is.sh
+$ wget raw.githubusercontent.com/hagenw/is.sh/latest/is.sh
 $ source ./is.sh
 ```
 
@@ -80,5 +80,5 @@ $ is not a substring abc defghi
 MIT
 
 
-[travis-image]: https://img.shields.io/travis/qzb/is.sh/master.svg
-[travis-url]: https://travis-ci.org/qzb/is.sh
+[travis-image]: https://img.shields.io/travis/hagenw/is.sh/master.svg
+[travis-url]: https://travis-ci.org/hagenw/is.sh
