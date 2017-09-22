@@ -2,7 +2,6 @@
 
 Fancy alternative for old good test command.
 
-[![NPM Version][npm-image]][npm-url]
 [![Build][travis-image]][travis-url]
 
 ## Example
@@ -21,14 +20,11 @@ fi
 
 ## Installation
 
-In order to use is.sh you can install it with one of following 1-liners:
+In order to use is.sh you can install it with:
 
 ```sh
 # Unix-like
 $ sudo sh -c 'cd /usr/local/bin && wget raw.githubusercontent.com/qzb/is.sh/latest/is.sh -O is && chmod +x is'
-
-# NPM
-$ npm install -g is.sh
 ```
 
 If you don't want to install is.sh system-wide you can just download it and source it from your script:
@@ -88,7 +84,5 @@ $ is not a substring abc defghi
 MIT
 
 
-[npm-image]: https://img.shields.io/npm/v/is.sh.svg
-[npm-url]: https://npmjs.org/package/is.sh
 [travis-image]: https://img.shields.io/travis/qzb/is.sh/master.svg
 [travis-url]: https://travis-ci.org/qzb/is.sh
