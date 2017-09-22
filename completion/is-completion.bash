@@ -9,7 +9,7 @@ _is () {
     not=" not "
     articles=" a an the "
     opts=" file dir directory link symlink existing readable writeable "
-    opts+="executable available installed empty number older newer "
+    opts+="executable available installed variable empty number older newer "
     opts+="gt lt ge le equal matching substring true false "
 
     if is substring " ${prev} " "${opts}"; then

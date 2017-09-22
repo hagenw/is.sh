@@ -33,6 +33,13 @@ ln -s file symlink_file
 ln -s dir symlink_dir
 
 #
+# Variables
+#
+
+unset NOTEXISTENT
+
+
+#
 # Helpers
 #
 
@@ -94,6 +101,10 @@ assert_false "$is executable ./forbidden_file"
 # is available
 assert_true  "$is available which"
 assert_false "$is available witch"
+
+# is variable
+assert_true  "$is variable CMD"
+assert_false "$is variable NOTEXISTENT"
 
 # is empty
 assert_true  "$is empty"

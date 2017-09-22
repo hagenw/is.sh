@@ -12,6 +12,7 @@ Conditions:
   is equal VALUE_A VALUE_B
   is matching REGEXP VALUE
   is substring VALUE_A VALUE_B
+  is variable VALUE
   is empty VALUE
   is number VALUE
   is gt NUMBER_A NUMBER_B
@@ -80,6 +81,8 @@ EOF
             [ -x "$value_a" ]; return $?;;
         available|installed)
             which "$value_a"; return $?;;
+        var|variable)
+            [ -v "$value_a" ]; return $?;;
         empty)
             [ -z "$value_a" ]; return $?;;
         number)

@@ -36,6 +36,7 @@ $ source ./is.sh
 * ``is equal $valueA $valueB`` - checks if values are the same or if they are equal numbers
 * ``is matching $regexp $value`` - checks if whole value matches to regular expression
 * ``is substring $valueA $valueB`` - checks if first value is a part of second one
+* ``is variable $value`` - checks if value is an existing variable
 * ``is empty $value`` - checks if value is empty
 * ``is number $value`` - checks if value is a number
 * ``is gt $numberA $numberB`` - true if first number is greater than second one
