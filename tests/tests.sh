@@ -6,10 +6,11 @@ if [ -n "$1" ] && ! which "$1" > /dev/null; then
 fi
 
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )"/.. && pwd -P )
-CMD=$(which "${1:-$DIR/is.sh}")
+CMD="$DIR/is.sh"
 
 # shellcheck source=/dev/null
 . "$DIR/tests/assert.sh"
+. "$CMD"
 
 echo Testing \"$CMD\"
 
@@ -31,7 +32,6 @@ mkdir dir
 ln -s file symlink_file
 ln -s dir symlink_dir
 
-
 #
 # Helpers
 #
@@ -49,7 +49,7 @@ assert_false() {
 # Tests
 #
 
-is="$CMD"
+is="is"
 
 # is file
 assert_true  "$is file ./file"

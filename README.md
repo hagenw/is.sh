@@ -20,14 +20,9 @@ fi
 
 ## Installation
 
-In order to use is.sh you can install it with:
+In order to use is.sh you can download it and source it from your script or
+``.bashrc:``
 
-```sh
-# Unix-like
-$ sudo sh -c 'cd /usr/local/bin && wget raw.githubusercontent.com/qzb/is.sh/latest/is.sh -O is && chmod +x is'
-```
-
-If you don't want to install is.sh system-wide you can just download it and source it from your script:
 
 ```sh
 $ wget raw.githubusercontent.com/qzb/is.sh/latest/is.sh

@@ -1,5 +1,3 @@
-#!/bin/bash
-#
 # Copyright (c) 2016 Józef Sokołowski
 # Distributed under the MIT License
 #
@@ -127,6 +125,6 @@ EOF
 if is not equal "${BASH_SOURCE[0]}" "$0"; then
     export -f is
 else
-    is "${@}"
-    exit $?
+    echo >&2 "is.sh is a library and can only be used by 'source is.sh'"
+    exit 1
 fi
