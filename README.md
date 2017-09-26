@@ -1,8 +1,6 @@
-# is.sh
+# is.sh [![Build][travis-image]][travis-url]
 
 Fancy alternative for old good test command.
-
-[![Build][travis-image]][travis-url]
 
 ## Example
 
@@ -80,5 +78,5 @@ $ is not a substring abc defghi
 MIT
 
 
-[travis-image]: https://img.shields.io/travis/hagenw/is.sh/master.svg
+[travis-image]: https://img.shields.io/travis/hagenw/is.sh/dev.svg
 [travis-url]: https://travis-ci.org/hagenw/is.sh
