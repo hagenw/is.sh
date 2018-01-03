@@ -38,6 +38,13 @@ $ wget raw.githubusercontent.com/qzb/is.sh/latest/is.sh
 $ source ./is.sh
 ```
 
+If you have installed is.sh, you can use bash autocompletion with it. Simply
+download the completion file to `/etc/bash_completion.d/`:
+
+```sh
+$ sudo sh -c 'cd /etc/bash_completion.d && wget raw.githubusercontent.com/qzb/is.sh/latest/completion/is-completion.bash -O is'
+```
+
 ## Usage
 
 ### Conditions
